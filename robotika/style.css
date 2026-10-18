@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    padding-top: 80px; 
+    padding-bottom: 60px;
+}
+
+#uvod {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.custom-carousel-img {
+    height: 500px;
+    object-fit: cover; /* Zajistí ořezání obrázku bez jeho deformace */
+    object-position: center;
+}
+
+.cyber-card {
+    transition: all 0.3s ease-in-out; 
+}
+
+.cyber-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2) !important;
+    border-bottom: 4px solid #0dcaf0 !important;
+}
