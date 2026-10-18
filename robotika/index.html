@@ -9,8 +9,9 @@
 </head>
 <body data-bs-spy="scroll" data-bs-target="#hlavni-navigace" tabindex="0">
 
+
     <div class="bg-danger text-white text-center py-2 fw-bold" style="font-size: 0.9rem;">
-    
+        UPOZORNĚNÍ: Tento web je fiktivní a slouží výhradně jako školní projekt.
     </div>
 
     <nav id="hlavni-navigace" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow">
@@ -84,7 +85,8 @@
                 <div class="col-md-4">
                     <div class="card h-100 shadow-sm border-0 cyber-card">
                         <div class="card-body">
-                            <h4 class="card-title text-info">Datacentra</h4>
+                            <!-- Změněno z <h4> na <h3> + přidána třída h4 pro zachování vizuálního stylu -->
+                            <h3 class="card-title h4 text-info">Datacentra</h3>
                             <p class="card-text">Fyzičtí roboti udržují servery, monitorují teplotu a vyměňují disky.</p>
                         </div>
                     </div>
@@ -92,7 +94,7 @@
                 <div class="col-md-4">
                     <div class="card h-100 shadow-sm border-0 cyber-card">
                         <div class="card-body">
-                            <h4 class="card-title text-info">RPA Automaty</h4>
+                            <h3 class="card-title h4 text-info">RPA Automaty</h3>
                             <p class="card-text">Softwaroví roboti automatizují zpracování dat a nasazování kódu.</p>
                         </div>
                     </div>
@@ -100,7 +102,7 @@
                 <div class="col-md-4">
                     <div class="card h-100 shadow-sm border-0 cyber-card">
                         <div class="card-body">
-                            <h4 class="card-title text-info">AI Drony</h4>
+                            <h3 class="card-title h4 text-info">AI Drony</h3>
                             <p class="card-text">Autonomní drony zajišťují logistiku IT součástek ve velkých skladech.</p>
                         </div>
                     </div>
@@ -125,11 +127,11 @@
                 <div class="col-md-8">
                     <div class="accordion shadow-sm" id="accordionFAQ">
                         <div class="accordion-item border-0 mb-2">
-                            <h2 class="accordion-header">
+                            <h3 class="accordion-header">
                                 <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
                                     Kde všude se v IT roboti dnes uplatní?
                                 </button>
-                            </h2>
+                            </h3>
                             <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
                                 <div class="accordion-body text-secondary">
                                     Kromě údržby velkých firemních datacenter se s automatizací setkáváme i u správy cloudů a dedikovaných herních serverů. Softwaroví roboti zde automaticky řeší zálohování a restarty při výpadcích.
@@ -137,11 +139,11 @@
                             </div>
                         </div>
                         <div class="accordion-item border-0 mb-2">
-                            <h2 class="accordion-header">
+                            <h3 class="accordion-header">
                                 <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
                                     Zasahuje IT robotika a analytika i do sportu?
                                 </button>
-                            </h2>
+                            </h3>
                             <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
                                 <div class="accordion-body text-secondary">
                                     Rozhodně! Pokročilé kamerové systémy a strojové učení dnes automaticky sledují a analyzují pohyb hráčů na palubovce a pomáhají trenérům vylepšovat taktiku na základě přesných dat.
@@ -149,11 +151,11 @@
                             </div>
                         </div>
                         <div class="accordion-item border-0">
-                            <h2 class="accordion-header">
+                            <h3 class="accordion-header">
                                 <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
                                     Nahradí softwaroví roboti programátory?
                                 </button>
-                            </h2>
+                            </h3>
                             <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFAQ">
                                 <div class="accordion-body text-secondary">
                                     Nikoliv. Umělá inteligence a RPA programátorům slouží jako silný nástroj. Zbavují je nutnosti psát nudný a opakující se kód, takže se vývojáři mohou soustředit na kreativní řešení problémů a návrh architektury.
@@ -166,17 +168,14 @@
         </div>
     </section>
 
-   
     <!-- Patička s funkčními W3C validátory -->
     <footer class="bg-dark text-center text-white py-4 mt-auto">
         <div class="container">
             <p class="mb-3">&copy; 2026 David - Školní projekt: Robotika v IT.</p>
             <div class="d-flex justify-content-center gap-3">
-                <!-- HTML Validátor s přímou adresou projektu -->
                 <a href="https://validator.w3.org/check?uri=https://davidstastny-dejv.github.io/web-1/robotika/index.html" target="_blank" class="text-decoration-none">
                     <img src="https://www.w3.org/Icons/valid-html401" alt="Valid HTML" height="31" width="88">
                 </a>
-                <!-- CSS Validátor s přímou adresou CSS souboru -->
                 <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://davidstastny-dejv.github.io/web-1/robotika/style.css" target="_blank" class="text-decoration-none">
                     <img src="https://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS" height="31" width="88">
                 </a>
